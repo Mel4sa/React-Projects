@@ -8,7 +8,7 @@ function Home() {
 
   const handleLogin = () => {
     if (name.trim() === "") {
-      alert("Lütfen adınızı girin!"); // boş isim engeli
+      alert("Lütfen adınızı girin!"); 
       return;
     }
     login(name);
